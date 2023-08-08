@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(230, 221, 221);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-color: rgb(230, 221, 221);
+    padding: 5px;
+    color: rgb(70, 69, 69);
+}
+nav input{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+nav button{
+    padding: 2px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 8px;
+}
+nav button a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+#header{
+    width: 600px;
+    padding-left: 250px;
+    padding-top: 10px;
+}
+#header button{
+    padding: 4px;
+    border: 1px solid rgb(165, 161, 161);
+    border-radius: 5px;
+    background-color: rgb(129, 46, 129);
+    color: white;
+    font-size: 16px;
+}
+
+/*----container----*/
+#container{
+    display: flex;
+}
+
+/*----card----*/
+
+.productsList{
+    width: 650px;
+}
+.productsList ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.productsList ul li{
+    width: 160px;
+    margin-top: 10px;
+}
+.card{
+    background-color: white;
+    width: 200px;
+}
+.card img{
+    width: 150px;
+    height: 100px;
+    margin-left: 5px;
+}
+
+/*----right sec----*/
+.rightSec{
+    width: 1000px;
+    background-color: white;
+    margin-left: -180px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sec1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.secD{
+    margin-right: -100px;
+}
+.secD button{
+    margin-left: -6px;
+    margin-right: -6px;
+    font-size: 16px;
+    padding: 3px;
+    background-color: rgb(248, 240, 240);
+    border: 1px solid rgb(180, 178, 178);
+}
+.secD button a{
+    text-decoration: none;
+}
+.secD input{
+    width: 400px;
+    font-size: 18px;
+    text-align: right;
+    background-color: rgb(248, 240, 240);
+    border: 1px solid rgb(180, 178, 178);
+    padding: 2px;
+}
+.secD select{
+    background-color: rgb(248, 240, 240);
+    border: 1px solid rgb(180, 178, 178);
+    width: 100px;
+    text-align: right;
+    font-size: 17px;
+    padding: 2px;
+}
+
+.sec2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.secD2 button{
+    margin-left: -6px;
+    margin-right: -6px;
+    font-size: 16px;
+    padding: 3px;
+    background-color: rgb(248, 240, 240);
+    border: 1px solid rgb(180, 178, 178);
+}
+.secD2 button a{
+    text-decoration: none;
+}
+
+.secD2 select{
+    background-color: rgb(248, 240, 240);
+    border: 1px solid rgb(180, 178, 178);
+    width: 100px;
+    text-align: right;
+    font-size: 17px;
+    padding: 2px;
+}
+
+.sec3 button{
+    margin-left: -6px;
+}
+.secD3{
+    margin-left: 415px;
+    margin-top: 10px;
+}
+.secD3 button{
+    margin-left: -6px;
+    margin-right: -6px;
+    font-size: 16px;
+    padding: 3px;
+    background-color: rgb(248, 240, 240);
+    border: 1px solid rgb(180, 178, 178);
+}
+.secD3 button a{
+    text-decoration: none;
+}
+
+.secD3 select{
+    background-color: rgb(248, 240, 240);
+    border: 1px solid rgb(180, 178, 178);
+    width: 100px;
+    text-align: right;
+    font-size: 17px;
+    padding: 2px;
+}
+.sec4 ul{
+    list-style: none;
+    background-color: rgb(78, 78, 78);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+.sec4 ul li{
+    padding: 2px 5px;
+}
+
+/*----footer----*/
+footer{
+    display: flex;
+    margin-top: 60px;
+}
+footer button{
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid rgb(199, 195, 195) ;
+    border-radius: 5px;
+    color: white;
+}
+footer span{
+    margin-right: 3px;
+}
